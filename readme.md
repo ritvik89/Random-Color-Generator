@@ -2,6 +2,12 @@
 
 A simple and fun web app that generates a random RGB color when you click the button!
 
+
+## 📸 Preview
+![Color Generator Screenshot](screenshots/image.png)
+![Color Generator Screenshot](screenshots/Screenshot%202025-10-23%20195801.png)
+
+
 ## 🚀 Features
 - Displays random colors in RGB format
 - Instant color preview box
@@ -13,7 +19,5 @@ A simple and fun web app that generates a random RGB color when you click the bu
 - CSS  
 - JavaScript
 
-## 📸 Preview
-![Color Generator Screenshot](https://via.placeholder.com/600x300.png?text=Color+Generator+Preview)
 
 
