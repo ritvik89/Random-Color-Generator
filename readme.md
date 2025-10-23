@@ -4,8 +4,10 @@ A simple and fun web app that generates a random RGB color when you click the bu
 
 
 ## 📸 Preview
-![Color Generator Screenshot](screenshots/image.png)
 ![Color Generator Screenshot](screenshots/Screenshot%202025-10-23%20195801.png)
+
+![Color Generator Screenshot](screenshots/image.png)
+
 
 
 ## 🚀 Features
