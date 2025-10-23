@@ -1,4 +1,4 @@
-
+/* Base Styles */
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #f4f4f4;
@@ -9,20 +9,20 @@ body {
   height: 100vh;
   margin: 0;
   transition: background-color 0.5s ease;
+  padding: 20px; /* small padding for very small devices */
 }
 
- div h1 {
-  font-size: 2rem;
+h1 {
+  font-size: clamp(1.5rem, 5vw, 2rem); /* responsive font size */
   color: #333;
   margin-bottom: 30px;
   transition: color 0.3s ease;
   text-align: center;
-
 }
 
 button {
   padding: 12px 25px;
-  font-size: 1.1rem;
+  font-size: clamp(0.9rem, 3vw, 1.1rem); /* responsive font size */
   border: none;
   border-radius: 8px;
   background-color: #333;
@@ -30,6 +30,8 @@ button {
   cursor: pointer;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s, transform 0.2s;
+  width: 80%;
+  max-width: 300px;
 }
 
 button:hover {
@@ -38,7 +40,8 @@ button:hover {
 }
 
 .color-box {
-  width: 300px;
+  width: 80%; /* responsive width */
+  max-width: 300px;
   height: 150px;
   border-radius: 10px;
   border: 1px solid black;
@@ -49,4 +52,21 @@ button:hover {
   font-weight: bold;
   color: black;
   transition: background-color 0.5s ease;
+}
+
+/* Media Queries for Very Small Devices */
+@media (max-width: 400px) {
+  .color-box {
+    height: 120px;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
 }
